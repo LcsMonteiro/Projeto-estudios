@@ -3,7 +3,7 @@ Turma Online 11 - Todas em Tech | Back-end | 2021 | Semana 14: Projeto Guiado - 
 
 ## Sobre o Projeto
 
-O **FavMovies** é um sistema de gerenciamento de catálogos de filmes dos estudios Marvel, Ghibli e Pixar. 
+O **PROJETO_ESTUDIOS** é um sistema de gerenciamento de catálogos de filmes dos estudios Madhouse, Ghibli e Copa Studio. 
 
 Onde receberemos cadastros de títulos(filmes e séries) referenciando cada estúdio criador. 
 
@@ -33,7 +33,7 @@ Onde receberemos cadastros de títulos(filmes e séries) referenciando cada est�
 ## 📁 Arquitetura 
 
 ```
- 📁 FavMovies
+ 📁 PROJETO_ESTUDIOS
    |
    |-  📁 src
    |    |
@@ -52,6 +52,7 @@ Onde receberemos cadastros de títulos(filmes e séries) referenciando cada est�
    |         |- 📄 tituloRoutes.js 
    |         |- 📄 estudioRoutes.js 
    |
+   |    |- 📄 app.js
    |
    |- 📄 .env
    |- 📄 .env.example
@@ -81,8 +82,8 @@ Acesse o board para conferir as informações de forma visual: https://miro.com/
 - [x]  "/titulos/[ID]" Deverá deletar titulo por id específico e retorna mensagem amigável
 - [x]  "/estudios/[ID]" Deverá deletar estudio por id específico e retorna mensagem amigável
 
-- [ ]  "/titulos/[ID]" Deverá alterar informação específica dentro de um titulo por id específico e retorna o título alterado
-- [ ]  "/estudios/[ID]" Deverá alterar informação específica dentro de um estudio por id específico e retorna o título alterado
+- [x]  "/titulos/[ID]" Deverá alterar informação específica dentro de um titulo por id específico e retorna o título alterado
+- [x]  "/estudios/[ID]" Deverá alterar informação específica dentro de um estudio por id específico e retorna o título alterado
 
 
 ### Regras de negócio
@@ -168,5 +169,18 @@ Crie seu repositório contendo:
  - um readme com os maiores aprendizados nesse projeto e copiando todas as informações sobre o projeto
  - cumprimento total do contrato (requisitos e regras de negócios) 
  - realizar testes no Postman e verificar se os dados estão persistindo com o mongoDB
+
+## Maiores aprendizados:
+
+Com o desenvolvimento do **PROJETO-ESTUDIOS**, foi possivel maior entendimento e fixação do processo de construção de um CRUD utilizando o MongoDb como banco de dados.
+
+## PROJETO GUIADO POR: 
+
+Simara Conceição
+- [instagram](https://www.instagram.com/simara_conceicao)
+- [linkedin](https://www.linkedin.com/in/simaraconceicao/)
+- [github](https://github.com/simaraconceicao)
+- [spotify](https://open.spotify.com/show/59vCz4TY6tPHXW26qJknh3)
+- [quero ser dev](https://queroserdev.com)
 
 
